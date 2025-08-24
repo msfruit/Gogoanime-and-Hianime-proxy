@@ -13,6 +13,7 @@ export const m3u8Proxy = async (req: Request, res: Response) => {
     // List of Referer/Origin combinations to try
     const headerOptions = [
       { Referer: "https://megaplay.buzz/", Origin: "https://megaplay.buzz" },
+      { Referer: "https://megacloud.club/", Origin: "https://megacloud.club" },
       { Referer: "https://vidwish.live/", Origin: "https://vidwish.live" },
       { Referer: "https://kwik.cx/", Origin: "https://kwik.cx" },
       { Referer: "https://tubeplx.viddsn.cfd/", Origin: "https://tubeplx.viddsn.cfd" }
